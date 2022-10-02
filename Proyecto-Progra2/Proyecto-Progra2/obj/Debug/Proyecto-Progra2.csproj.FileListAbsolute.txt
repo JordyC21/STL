@@ -1,0 +1,12 @@
+C:\Users\matri\OneDrive\Imágenes\WEB API\Proyecto-Progra2\Proyecto-Progra2\bin\Debug\Proyecto-Progra2.exe.config
+C:\Users\matri\OneDrive\Imágenes\WEB API\Proyecto-Progra2\Proyecto-Progra2\bin\Debug\Proyecto-Progra2.exe
+C:\Users\matri\OneDrive\Imágenes\WEB API\Proyecto-Progra2\Proyecto-Progra2\bin\Debug\Proyecto-Progra2.pdb
+C:\Users\matri\OneDrive\Imágenes\WEB API\Proyecto-Progra2\Proyecto-Progra2\obj\Debug\Proyecto-Progra2.csproj.AssemblyReference.cache
+C:\Users\matri\OneDrive\Imágenes\WEB API\Proyecto-Progra2\Proyecto-Progra2\obj\Debug\Proyecto-Progra2.csproj.SuggestedBindingRedirects.cache
+C:\Users\matri\OneDrive\Imágenes\WEB API\Proyecto-Progra2\Proyecto-Progra2\obj\Debug\Proyecto_Progra2.Form1.resources
+C:\Users\matri\OneDrive\Imágenes\WEB API\Proyecto-Progra2\Proyecto-Progra2\obj\Debug\Proyecto_Progra2.Properties.Resources.resources
+C:\Users\matri\OneDrive\Imágenes\WEB API\Proyecto-Progra2\Proyecto-Progra2\obj\Debug\Proyecto-Progra2.csproj.GenerateResource.cache
+C:\Users\matri\OneDrive\Imágenes\WEB API\Proyecto-Progra2\Proyecto-Progra2\obj\Debug\Proyecto-Progra2.csproj.CoreCompileInputs.cache
+C:\Users\matri\OneDrive\Imágenes\WEB API\Proyecto-Progra2\Proyecto-Progra2\obj\Debug\Proyecto-Progra2.exe
+C:\Users\matri\OneDrive\Imágenes\WEB API\Proyecto-Progra2\Proyecto-Progra2\obj\Debug\Proyecto-Progra2.pdb
+C:\Users\matri\OneDrive\Imágenes\WEB API\Proyecto-Progra2\Proyecto-Progra2\obj\Debug\Proyecto_Progra2.FrmLogin.resources
