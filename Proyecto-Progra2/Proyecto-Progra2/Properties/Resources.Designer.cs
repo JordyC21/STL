@@ -93,9 +93,9 @@ namespace Proyecto_Progra2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Mamalon2 {
+        internal static System.Drawing.Bitmap Plus_36851 {
             get {
-                object obj = ResourceManager.GetObject("Mamalon2", resourceCulture);
+                object obj = ResourceManager.GetObject("Plus_36851", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -126,6 +126,26 @@ namespace Proyecto_Progra2.Properties {
         internal static System.Drawing.Bitmap pngwing_com__1_ {
             get {
                 object obj = ResourceManager.GetObject("pngwing.com (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap refresh_arrow_1546 {
+            get {
+                object obj = ResourceManager.GetObject("refresh_arrow_1546", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap trash_can_115312 {
+            get {
+                object obj = ResourceManager.GetObject("trash-can_115312", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

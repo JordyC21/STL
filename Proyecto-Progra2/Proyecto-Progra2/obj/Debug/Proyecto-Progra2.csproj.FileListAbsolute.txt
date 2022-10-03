@@ -10,3 +10,10 @@ C:\Users\matri\OneDrive\Imágenes\WEB API\Proyecto-Progra2\Proyecto-Progra2\obj\
 C:\Users\matri\OneDrive\Imágenes\WEB API\Proyecto-Progra2\Proyecto-Progra2\obj\Debug\Proyecto-Progra2.exe
 C:\Users\matri\OneDrive\Imágenes\WEB API\Proyecto-Progra2\Proyecto-Progra2\obj\Debug\Proyecto-Progra2.pdb
 C:\Users\matri\OneDrive\Imágenes\WEB API\Proyecto-Progra2\Proyecto-Progra2\obj\Debug\Proyecto_Progra2.FrmLogin.resources
+C:\Users\matri\OneDrive\Imágenes\WEB API\Proyecto-Progra2\Proyecto-Progra2\obj\Debug\Proyecto_Progra2.FrmProductos.resources
+C:\Users\matri\OneDrive\Imágenes\WEB API\Proyecto-Progra2\Proyecto-Progra2\bin\Debug\EntityFramework.dll
+C:\Users\matri\OneDrive\Imágenes\WEB API\Proyecto-Progra2\Proyecto-Progra2\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\matri\OneDrive\Imágenes\WEB API\Proyecto-Progra2\Proyecto-Progra2\bin\Debug\EntityFramework.xml
+C:\Users\matri\OneDrive\Imágenes\WEB API\Proyecto-Progra2\Proyecto-Progra2\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\matri\OneDrive\Imágenes\WEB API\Proyecto-Progra2\Proyecto-Progra2\obj\Debug\Proyecto-Progra2.csproj.CopyComplete
+C:\Users\matri\OneDrive\Imágenes\WEB API\Proyecto-Progra2\Proyecto-Progra2\obj\Debug\Proyecto_Progra2.FrmAñadirProd.resources

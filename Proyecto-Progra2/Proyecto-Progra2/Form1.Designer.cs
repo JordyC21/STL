@@ -38,14 +38,14 @@
             this.btnRegistros = new System.Windows.Forms.Button();
             this.panelCentro = new System.Windows.Forms.Panel();
             this.Titulo = new System.Windows.Forms.Panel();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.MinimizarVentana = new System.Windows.Forms.PictureBox();
             this.CerrarVentana = new System.Windows.Forms.PictureBox();
             this.barra2.SuspendLayout();
             this.Titulo.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.MinimizarVentana)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.CerrarVentana)).BeginInit();
             this.SuspendLayout();
@@ -121,6 +121,7 @@
             this.button1.TabIndex = 3;
             this.button1.Text = "Inventario";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // panel1
             // 
@@ -169,17 +170,6 @@
             this.Titulo.TabIndex = 0;
             this.Titulo.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Titulo_MouseDown);
             // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::Proyecto_Progra2.Properties.Resources.logout;
-            this.pictureBox2.Location = new System.Drawing.Point(12, 373);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(30, 30);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 4;
-            this.pictureBox2.TabStop = false;
-            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
-            // 
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
@@ -190,6 +180,17 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::Proyecto_Progra2.Properties.Resources.logout;
+            this.pictureBox2.Location = new System.Drawing.Point(12, 373);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(30, 30);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 4;
+            this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // MinimizarVentana
             // 
@@ -232,8 +233,8 @@
             this.Text = "Form1";
             this.barra2.ResumeLayout(false);
             this.Titulo.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.MinimizarVentana)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.CerrarVentana)).EndInit();
             this.ResumeLayout(false);

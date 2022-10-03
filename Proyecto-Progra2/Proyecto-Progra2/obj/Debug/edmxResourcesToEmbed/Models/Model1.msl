@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="FerreteriaSlimModelStoreContainer" CdmEntityContainer="FerreteriaSlimEntities">
+    <EntitySetMapping Name="Productos">
+      <EntityTypeMapping TypeName="FerreteriaSlimModel.Productos">
+        <MappingFragment StoreEntitySet="Productos">
+          <ScalarProperty Name="idProducto" ColumnName="idProducto" />
+          <ScalarProperty Name="prodProveedorId" ColumnName="prodProveedorId" />
+          <ScalarProperty Name="prodNombre" ColumnName="prodNombre" />
+          <ScalarProperty Name="prodPrecio" ColumnName="prodPrecio" />
+          <ScalarProperty Name="prodCantidad" ColumnName="prodCantidad" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Usuarios">
+      <EntityTypeMapping TypeName="FerreteriaSlimModel.Usuarios">
+        <MappingFragment StoreEntitySet="Usuarios">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="usuario" ColumnName="usuario" />
+          <ScalarProperty Name="password" ColumnName="password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Ventas">
+      <EntityTypeMapping TypeName="FerreteriaSlimModel.Ventas">
+        <MappingFragment StoreEntitySet="Ventas">
+          <ScalarProperty Name="idVenta" ColumnName="idVenta" />
+          <ScalarProperty Name="vCantidad" ColumnName="vCantidad" />
+          <ScalarProperty Name="precioU" ColumnName="precioU" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

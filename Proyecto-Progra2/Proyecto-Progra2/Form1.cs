@@ -52,5 +52,12 @@ namespace Proyecto_Progra2
         {
             MoverVentana();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            FrmProductos frProd = new FrmProductos();
+            frProd.ShowDialog(); 
+            
+        }
     }
 }

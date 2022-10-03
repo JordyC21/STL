@@ -44,7 +44,7 @@
             this.btnIniciarSesion.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Red;
             this.btnIniciarSesion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnIniciarSesion.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnIniciarSesion.Location = new System.Drawing.Point(153, 349);
+            this.btnIniciarSesion.Location = new System.Drawing.Point(137, 349);
             this.btnIniciarSesion.Name = "btnIniciarSesion";
             this.btnIniciarSesion.Size = new System.Drawing.Size(231, 44);
             this.btnIniciarSesion.TabIndex = 3;
@@ -58,7 +58,7 @@
             this.txtPassword.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtPassword.Font = new System.Drawing.Font("Century", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtPassword.ForeColor = System.Drawing.Color.Gray;
-            this.txtPassword.Location = new System.Drawing.Point(153, 256);
+            this.txtPassword.Location = new System.Drawing.Point(137, 256);
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.Size = new System.Drawing.Size(231, 20);
             this.txtPassword.TabIndex = 2;
@@ -73,7 +73,7 @@
             this.txtUsuario.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtUsuario.Font = new System.Drawing.Font("Century", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtUsuario.ForeColor = System.Drawing.Color.Gray;
-            this.txtUsuario.Location = new System.Drawing.Point(153, 186);
+            this.txtUsuario.Location = new System.Drawing.Point(137, 186);
             this.txtUsuario.Name = "txtUsuario";
             this.txtUsuario.Size = new System.Drawing.Size(231, 20);
             this.txtUsuario.TabIndex = 0;
@@ -85,7 +85,7 @@
             // 
             this.panel1.BackColor = System.Drawing.Color.DarkSlateGray;
             this.panel1.Enabled = false;
-            this.panel1.Location = new System.Drawing.Point(153, 275);
+            this.panel1.Location = new System.Drawing.Point(137, 275);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(231, 5);
             this.panel1.TabIndex = 3;
@@ -94,7 +94,7 @@
             // 
             this.panel2.BackColor = System.Drawing.Color.DarkSlateGray;
             this.panel2.Enabled = false;
-            this.panel2.Location = new System.Drawing.Point(153, 205);
+            this.panel2.Location = new System.Drawing.Point(137, 205);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(231, 5);
             this.panel2.TabIndex = 4;
@@ -104,7 +104,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("MS Reference Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.Control;
-            this.label1.Location = new System.Drawing.Point(231, 9);
+            this.label1.Location = new System.Drawing.Point(216, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(86, 26);
             this.label1.TabIndex = 5;
@@ -113,9 +113,9 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Proyecto_Progra2.Properties.Resources.f3c57ee5_5ede_49f2_af7b_ef89a10b3380;
-            this.pictureBox1.Location = new System.Drawing.Point(210, 68);
+            this.pictureBox1.Location = new System.Drawing.Point(193, 38);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(122, 73);
+            this.pictureBox1.Size = new System.Drawing.Size(133, 115);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 6;
             this.pictureBox1.TabStop = false;
@@ -125,7 +125,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.CadetBlue;
-            this.ClientSize = new System.Drawing.Size(525, 439);
+            this.ClientSize = new System.Drawing.Size(499, 439);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.panel2);

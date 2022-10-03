@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Proyecto_Progra2.Models; 
 
 namespace Proyecto_Progra2
 {
@@ -68,14 +69,14 @@ namespace Proyecto_Progra2
         //-----------------------------------------------------------------------------------//
 
         //LOGIN
-
+        FerreteriaSlimEntities db = new FerreteriaSlimEntities();
         private void btnIniciarSesion_Click(object sender, EventArgs e)
         {
             try
             {
-                if (txtUsuario.Text == "Admin" & txtPassword.Text == "123")
+                if (db.Usuarios.Where(r => r.usuario == txtUsuario.Text && r.password == txtPassword.Text).Count()>0)
                 {
-                    MessageBox.Show("Correcto");
+                    MessageBox.Show("Los datos son correctos :) ");
                     Form1 forMadre = new Form1();
                     forMadre.Show();
 
@@ -85,7 +86,7 @@ namespace Proyecto_Progra2
                 }
                 else
                 {
-                    MessageBox.Show("Los datos son invalidos");
+                    MessageBox.Show("Los datos son invalidos :( ");
                 }
 
 
