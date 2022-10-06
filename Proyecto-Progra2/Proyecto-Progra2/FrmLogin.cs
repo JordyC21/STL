@@ -76,7 +76,8 @@ namespace Proyecto_Progra2
             {
                 if (db.Usuarios.Where(r => r.usuario == txtUsuario.Text && r.password == txtPassword.Text).Count()>0)
                 {
-                    MessageBox.Show("Los datos son correctos :) ");
+                   
+                    MessageBox.Show( "Usuario encontrado" , "Bienvenido", MessageBoxButtons.OK);
                     Form1 forMadre = new Form1();
                     forMadre.Show();
 
@@ -86,7 +87,7 @@ namespace Proyecto_Progra2
                 }
                 else
                 {
-                    MessageBox.Show("Los datos son invalidos :( ");
+                    MessageBox.Show("Usuario no encontrado", "Alerta", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 }
 
 

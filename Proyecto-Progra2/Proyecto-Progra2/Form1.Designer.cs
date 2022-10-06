@@ -28,7 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.barra2 = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.button2 = new System.Windows.Forms.Button();
@@ -37,15 +40,16 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnRegistros = new System.Windows.Forms.Button();
             this.panelCentro = new System.Windows.Forms.Panel();
+            this.time = new System.Windows.Forms.Label();
             this.Titulo = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.MinimizarVentana = new System.Windows.Forms.PictureBox();
             this.CerrarVentana = new System.Windows.Forms.PictureBox();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.barra2.SuspendLayout();
-            this.Titulo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.panelCentro.SuspendLayout();
+            this.Titulo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.MinimizarVentana)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.CerrarVentana)).BeginInit();
             this.SuspendLayout();
@@ -67,6 +71,28 @@
             this.barra2.Name = "barra2";
             this.barra2.Size = new System.Drawing.Size(131, 415);
             this.barra2.TabIndex = 1;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.Image = global::Proyecto_Progra2.Properties.Resources.f3c57ee5_5ede_49f2_af7b_ef89a10b3380;
+            this.pictureBox1.Location = new System.Drawing.Point(3, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(124, 72);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::Proyecto_Progra2.Properties.Resources.logout;
+            this.pictureBox2.Location = new System.Drawing.Point(12, 373);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(30, 30);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 4;
+            this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // panel4
             // 
@@ -150,12 +176,24 @@
             // 
             this.panelCentro.BackColor = System.Drawing.Color.LightSlateGray;
             this.panelCentro.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.panelCentro.Controls.Add(this.time);
             this.panelCentro.Cursor = System.Windows.Forms.Cursors.Default;
             this.panelCentro.Dock = System.Windows.Forms.DockStyle.Right;
             this.panelCentro.Location = new System.Drawing.Point(133, 35);
             this.panelCentro.Name = "panelCentro";
             this.panelCentro.Size = new System.Drawing.Size(667, 415);
             this.panelCentro.TabIndex = 2;
+            // 
+            // time
+            // 
+            this.time.AutoSize = true;
+            this.time.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.time.ForeColor = System.Drawing.Color.White;
+            this.time.Location = new System.Drawing.Point(586, 3);
+            this.time.Name = "time";
+            this.time.Size = new System.Drawing.Size(47, 20);
+            this.time.TabIndex = 0;
+            this.time.Text = "Time";
             // 
             // Titulo
             // 
@@ -168,29 +206,8 @@
             this.Titulo.Name = "Titulo";
             this.Titulo.Size = new System.Drawing.Size(800, 35);
             this.Titulo.TabIndex = 0;
+            this.Titulo.Paint += new System.Windows.Forms.PaintEventHandler(this.Titulo_Paint);
             this.Titulo.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Titulo_MouseDown);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Image = global::Proyecto_Progra2.Properties.Resources.f3c57ee5_5ede_49f2_af7b_ef89a10b3380;
-            this.pictureBox1.Location = new System.Drawing.Point(3, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(124, 72);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::Proyecto_Progra2.Properties.Resources.logout;
-            this.pictureBox2.Location = new System.Drawing.Point(12, 373);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(30, 30);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 4;
-            this.pictureBox2.TabStop = false;
-            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // MinimizarVentana
             // 
@@ -219,6 +236,11 @@
             this.CerrarVentana.TabStop = false;
             this.CerrarVentana.Click += new System.EventHandler(this.CerrarVentana_Click);
             // 
+            // timer1
+            // 
+            this.timer1.Enabled = true;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -232,9 +254,11 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.barra2.ResumeLayout(false);
-            this.Titulo.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            this.panelCentro.ResumeLayout(false);
+            this.panelCentro.PerformLayout();
+            this.Titulo.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.MinimizarVentana)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.CerrarVentana)).EndInit();
             this.ResumeLayout(false);
@@ -256,6 +280,8 @@
         private System.Windows.Forms.PictureBox CerrarVentana;
         private System.Windows.Forms.PictureBox MinimizarVentana;
         private System.Windows.Forms.Panel Titulo;
+        private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Label time;
     }
 }
 

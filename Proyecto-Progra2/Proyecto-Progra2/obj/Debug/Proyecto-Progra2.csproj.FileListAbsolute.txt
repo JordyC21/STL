@@ -17,3 +17,4 @@ C:\Users\matri\OneDrive\Imágenes\WEB API\Proyecto-Progra2\Proyecto-Progra2\bin\
 C:\Users\matri\OneDrive\Imágenes\WEB API\Proyecto-Progra2\Proyecto-Progra2\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\matri\OneDrive\Imágenes\WEB API\Proyecto-Progra2\Proyecto-Progra2\obj\Debug\Proyecto-Progra2.csproj.CopyComplete
 C:\Users\matri\OneDrive\Imágenes\WEB API\Proyecto-Progra2\Proyecto-Progra2\obj\Debug\Proyecto_Progra2.FrmAñadirProd.resources
+C:\Users\matri\OneDrive\Imágenes\WEB API\Proyecto-Progra2\Proyecto-Progra2\obj\Debug\Proyecto_Progra2.FrmEliminarProd.resources

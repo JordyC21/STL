@@ -18,7 +18,7 @@ namespace Proyecto_Progra2
             InitializeComponent();
         }
 
-        private void FrmProductos_Load(object sender, EventArgs e)
+        public void FrmProductos_Load(object sender, EventArgs e)
         {
             dataGridView1.DataSource = SelectProducto();
 
@@ -33,7 +33,7 @@ namespace Proyecto_Progra2
             }
         }
 
-        void Mostrarproductos()
+        public void Mostrarproductos()
         {
             dataGridView1.DataSource = SelectProducto();
         }
@@ -57,6 +57,17 @@ namespace Proyecto_Progra2
             FrmAñadirProd frmprod = new FrmAñadirProd();
 
             frmprod.ShowDialog();
+        }
+
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+
+            FrmEliminarProd frmEliminarProd = new FrmEliminarProd();
+
+            frmEliminarProd.ShowDialog();
+
+          
+            
         }
     }
 }

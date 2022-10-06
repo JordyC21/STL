@@ -67,6 +67,12 @@
     <Compile Include="FrmAñadirProd.Designer.cs">
       <DependentUpon>FrmAñadirProd.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmEliminarProd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEliminarProd.Designer.cs">
+      <DependentUpon>FrmEliminarProd.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmLogin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -110,6 +116,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmAñadirProd.resx">
       <DependentUpon>FrmAñadirProd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEliminarProd.resx">
+      <DependentUpon>FrmEliminarProd.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmLogin.resx">
       <DependentUpon>FrmLogin.cs</DependentUpon>

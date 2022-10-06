@@ -57,7 +57,19 @@ namespace Proyecto_Progra2
         {
             FrmProductos frProd = new FrmProductos();
             frProd.ShowDialog(); 
+
+
             
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            time.Text = DateTime.Now.ToString("H:mm:ss"); 
+        }
+
+        private void Titulo_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

@@ -33,22 +33,22 @@
             this.button1 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.btnAñadir = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.btnDelete = new System.Windows.Forms.PictureBox();
+            this.btnAñadir = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnAñadir)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnDelete)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnAñadir)).BeginInit();
             this.SuspendLayout();
             // 
             // dataGridView1
             // 
-            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.Window;
+            this.dataGridView1.BackgroundColor = System.Drawing.Color.LightBlue;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(123, 131);
+            this.dataGridView1.Location = new System.Drawing.Point(133, 131);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(554, 269);
+            this.dataGridView1.Size = new System.Drawing.Size(544, 269);
             this.dataGridView1.TabIndex = 0;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
@@ -81,33 +81,12 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(329, 9);
+            this.label2.Font = new System.Drawing.Font("Century Gothic", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(327, 24);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(98, 18);
+            this.label2.Size = new System.Drawing.Size(172, 25);
             this.label2.TabIndex = 4;
-            this.label2.Text = "PRODUCTOS";
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::Proyecto_Progra2.Properties.Resources.trash_can_115312;
-            this.pictureBox2.Location = new System.Drawing.Point(647, 94);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(30, 30);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 6;
-            this.pictureBox2.TabStop = false;
-            // 
-            // btnAñadir
-            // 
-            this.btnAñadir.Image = global::Proyecto_Progra2.Properties.Resources.Plus_36851;
-            this.btnAñadir.Location = new System.Drawing.Point(594, 95);
-            this.btnAñadir.Name = "btnAñadir";
-            this.btnAñadir.Size = new System.Drawing.Size(30, 30);
-            this.btnAñadir.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.btnAñadir.TabIndex = 5;
-            this.btnAñadir.TabStop = false;
-            this.btnAñadir.Click += new System.EventHandler(this.btnAñadir_Click);
+            this.label2.Text = "INVENTARIO TSL";
             // 
             // pictureBox4
             // 
@@ -120,6 +99,28 @@
             this.pictureBox4.TabStop = false;
             this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
             // 
+            // btnDelete
+            // 
+            this.btnDelete.Image = global::Proyecto_Progra2.Properties.Resources.trash_can_115312;
+            this.btnDelete.Location = new System.Drawing.Point(647, 94);
+            this.btnDelete.Name = "btnDelete";
+            this.btnDelete.Size = new System.Drawing.Size(30, 30);
+            this.btnDelete.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.btnDelete.TabIndex = 6;
+            this.btnDelete.TabStop = false;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
+            // 
+            // btnAñadir
+            // 
+            this.btnAñadir.Image = global::Proyecto_Progra2.Properties.Resources.Plus_36851;
+            this.btnAñadir.Location = new System.Drawing.Point(594, 95);
+            this.btnAñadir.Name = "btnAñadir";
+            this.btnAñadir.Size = new System.Drawing.Size(30, 30);
+            this.btnAñadir.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.btnAñadir.TabIndex = 5;
+            this.btnAñadir.TabStop = false;
+            this.btnAñadir.Click += new System.EventHandler(this.btnAñadir_Click);
+            // 
             // FrmProductos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -127,7 +128,7 @@
             this.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.pictureBox4);
-            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.btnDelete);
             this.Controls.Add(this.btnAñadir);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.textBox1);
@@ -141,9 +142,9 @@
             this.Text = "FrmProductos";
             this.Load += new System.EventHandler(this.FrmProductos_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnAñadir)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnDelete)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnAñadir)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -157,7 +158,7 @@
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.PictureBox btnAñadir;
-        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox btnDelete;
         private System.Windows.Forms.PictureBox pictureBox4;
     }
 }

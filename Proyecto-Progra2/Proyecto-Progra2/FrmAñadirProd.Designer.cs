@@ -130,6 +130,7 @@
             this.btnAgregarProd.TabIndex = 8;
             this.btnAgregarProd.Text = "Agregar";
             this.btnAgregarProd.UseVisualStyleBackColor = false;
+            this.btnAgregarProd.Click += new System.EventHandler(this.btnAgregarProd_Click);
             // 
             // label5
             // 
@@ -167,6 +168,7 @@
             this.Name = "FrmAñadirProd";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Añadir producto";
+            this.Load += new System.EventHandler(this.FrmAñadirProd_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
